@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    height: 70vh;
+    margin-bottom: 2rem;
+}
+.header-image{
+    width: 100%;
+    position: absolute;
+    top: -10vh;
+    z-index: -1;
+}
+.header-image img{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1rem;
+    margin: 0 40px;
+}
+.nav-bar{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+.nav-bar li:hover{
+    background-color: aqua;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 5vh;
+}
+.head img{
+    width: 30%;
+}
+.head h3{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 55%;
+}
+.search-item{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0 1rem;
+}
+.search-item p{
+    color: gray;
+    font-size: 1rem;
+    font-weight: 200;
+    border-right: 2px solid gray;
+    padding:  0 1rem;
+}
+.search-item:first-child{
+    color: rgb(255, 126, 139);
+}
+.search-item:last-child{
+    width: 60%;
+}
+.search-item input{
+    width: 60%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.section .section-image{
+    background-color: white;
+    border: 1px solid gray;
+}
+.section-1 .section-image{
+    position: relative;
+    margin:3px 5px;
+    border: 1px solid rgba(228, 228, 228, 0.838);
+    border-radius: 10px;
+    overflow: hidden;
+    /* */
+}
+.section-1 .section-image img{
+    border-radius: 10px;
+    border: 1px solid rgba(228, 228, 228, 0.838);
+}
+.section-1 .section-image .section-details{
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+.section-1 .section-image .section-details p,h3{
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+.section-1 .section-image:hover{
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+    border: 2px solid gray;
+    transform: scale(0.9);
+}
+.section-2{
+    border-bottom: 4rem;
+    width: 1080px;
+    margin: 0 auto;
+}
+.section-2-heading{
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.section-2 .section-2-container .section-2-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-2 .section-2-container .section-2-items .section-2-item{
+    width: 100%;
+    width: 26%;
+}
+.section-2-item{
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(236, 236, 236);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.section-2-item .item-head{
+    font-size: 1.3rem;
+    margin: 0;
+    color: rgb(28, 28, 28);
+    font-weight:lighter;
+    margin-bottom: 5px;
+}
+.section-2-item .item-para{
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+}
+.section-3{
+    background-color: rgb(255, 251, 247);
+    margin:  4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 .section-3-image img{
+    width: 500px;
+    height: 510px;
+    cursor: pointer;
+}
+.radio-buttons{
+    display: flex;
+    gap: 5rem;
+}
+.section-3-info{
+    height: 500px;
+    margin: 0;
+}
+.section-3-info .section-3-info-head{
+    color: rgb(28, 28, 28);
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 0px 0px 1.5rem;
+}
+.section-3-info .section-3-info-para{
+    font-size: 1.2rem;
+    color: rgb(54, 54, 54);
+    font-weight: lighter;
+    line-height: 1rem;
+}
+.radio-buttons .radio {
+    width: 100%;
+    margin: 1rem 0;
+}
+.email ,.phone{
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.email1{
+    width: 80%;
+    font-size: 1.2rem;
+}
+button{
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    cursor: pointer;
+    background-color: rgba(221, 10, 42, 0.89);
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    padding: 0.8rem;
+    border: none;
+}
+.section-3-download{
+    width: 100%;
+}
+.section-3-download p{
+    font-size: 1.2rem;
+    color: rgb(54, 54, 54);
+    font-weight: lighter;
+}
+.section-3-download img{
+    width: 20%;
+    margin: 0;
+    margin-right: 1.2rem;
+    cursor: pointer;
+}
+.social-media{
+    width: 100%;
+    margin-top: 1.5rem;
+    gap: 2rem;
+    
+}
+.social-media p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.social-media img{
+    width: 50px;
+    margin: 0 ;
+    margin-right: 5rem;
+}
